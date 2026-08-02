@@ -1,0 +1,68 @@
+nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#site {
+  margin-left: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 50px;
+  margin-right: 20px;
+}
+
+#nav-but {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#but-2 {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container-1 {
+  margin: 40px;
+}
+
+.hero-image {
+  width: 1867px;
+  height: 640px;px;
+  background-image: url('fruit-juice.webp');
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.fruit-card-container {
+  display: flex;
+  gap: 40px;
+  margin: 60px;
+}
+.image {
+  width: 600px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+.hero-image-2 {
+  width: 1000px;
+height: 500px;
+background-image:url('fruit-juice.webp') ;
+float: right;
+}

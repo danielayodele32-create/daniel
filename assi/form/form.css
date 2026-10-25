@@ -1,0 +1,76 @@
+ .query {
+     display: flex;
+     flex: 1;
+     border: 1px solid #ccc;
+     border-radius: 5px
+
+ }
+
+ .query-box {
+     display: flex;
+     flex: 1;
+     gap: 10px;
+ }
+
+ .names {
+     width: 100%;
+     display: flex;
+     gap: 10px;
+ }
+
+ .username {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+ }
+
+ .useremail {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .check {
+     display: flex
+ }
+
+ body {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(168, 255, 168);
+    
+ }
+
+ .userform {
+     border-radius: 10px;
+     width: 1000px;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     padding: 40px;
+ }
+
+ input {
+     height: 80px;
+     border-radius: 5px;
+ }
+
+ .mess {
+     height: 160px;
+ }
+
+ button {
+     height: 80px;
+     background-color: rgb(5, 141, 78);
+     border-radius: 5px;
+     color: white;
+     border: none;
+     font-size: 2rem;
+ }
+ label{
+     margin: 20px 0px;
+     font-size: 1.5rem;
+ }
